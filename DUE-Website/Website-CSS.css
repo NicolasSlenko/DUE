@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?famiky=Source+Sans+Pro:wght@600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box; 
+}
+
+nav{
+    background: #161617;
+    height: 80px;
+    width: 100%
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li{
+   display: inline-block;
+   line-height: 80px; 
+   margin: 0 5px;
+
+    
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px; 
+    text-transform: uppercase; 
+}
+a.active,a:hover{
+    background: black;
+    transition: 0.5s; 
+}
+label.logo{
+    color: White;
+    font-size: 35px; 
+    line-height: 80px;
+    padding: 0 100px; 
+    font-weight: bold; 
+}
+body{
+    background:#121212;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+
+
+h1{
+
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+
+
+
+
+
+.flexbox {
+    display: flex; 
+    position: relative; 
+    top: 200px;
+   
+}
+
+.quote{
+    position: relative;
+    font-weight: 700px; 
+    right: 400px; 
+    top: -10px; 
+    width: 650px;
+    font-size: 40px; 
+    font-family: "courier new";  
+     
+}
+
+button{
+     background-color: #5865F2; 
+     color: azure; 
+     border-radius: 50px; 
+     width:600px ; 
+     height:100px; 
+     font-size: 50px;
+     border-radius: 30px;
+     position: absolute; 
+     top:600px;
+     left:700px; 
+     letter-spacing: 4px; 
+     box-shadow: inset 0 0 0 0 #808080;
+     transition: ease-out 0.4s; 
+     outline: none;
+}
+
+button:hover{
+    box-shadow: inset 600px 0 0 0 white;
+    cursor:pointer;
+    color: #5865F2;
+}
+
+.rectangle{
+    width: 500px;
+    height: 500px;  
+    background: #5865F2;
+    border-radius: 50px;
+    text-align: center; 
+    
+}
+
+.a{
+    width: 500px;
+    height: 400px;
+    font-size: 20px; 
+}
+
+.b{
+    font-size: 20px; 
+    height: 550px;
+}
+.c{
+    font-style: "Source code pro";
+    font-size: 20px;
+    height: 650px;
+}
+.rectangles{
+ 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: flex-start;  
+    font-family: "Lucida Sans"
+}
+
+.rectangleheader{
+    height: 200px; 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+   
+}
+
+.backbling{
+    font-size: 60px; 
+    width: 500px;
+    height: 100px;  
+    background: #808080;
+    padding: 20px;  
+    text-align: center; 
+    border-radius: 50px; 
+}
+
+
+
+.due img[src="DUE-logos.jpeg"]{
+    border-radius: 50%; 
+    
+}
+
+.due{
+    display: flex;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.PFPS{
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: flex-start; 
+    flex-direction: column; 
+    height: 800px;
+    margin-left: 200px; 
+    gap: 70px
+    
+    
+}
+
+.PFPS img{
+
+    border-radius: 50%; 
+    
+}
+
+.info{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    position: absolute;
+    gap: 190px;
+    height: 600px;  
+    margin-top: -720px;
+    width: 1200px;
+    margin-left: 450px;
+    font-family: "courier new";
+    font-size: 20px; 
+
+}
+
+.z{
+    width: 200px;
+    height: 100px; 
+}
+
+.MS{
+    font-size: 20px; 
+    display: flex; 
+    font-family: "courier new";
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    margin-top: -845px; 
+    gap: 57px;
+    z-index: -500; 
+}
+
+.box{
+    width: 100%;
+    height: 225px; 
+  
+}
+
+.w{
+    background-color: #191919; 
+}
+
+.x{
+    background-color: #1a6985; 
+}
+
+.y{
+    background-color: #40343c; 
+}
