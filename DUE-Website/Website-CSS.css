@@ -51,7 +51,7 @@ body{
     background:#121212;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
-    
+    min-width: 1800px;
 }
 
 
