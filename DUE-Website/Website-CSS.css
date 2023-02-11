@@ -275,10 +275,9 @@ button:hover{
 }
 
 form{
-  
-  border: 2px solid #121212;  
   margin: auto;
   width: 50%;
-  padding: 10px;   
-    
+  border: 3px solid red;
+  padding: 10px;
+   
 }
