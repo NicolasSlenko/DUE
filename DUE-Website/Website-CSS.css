@@ -274,7 +274,7 @@ button:hover{
     background-color: #40343c; 
 }
 
-.form{
+form{
   margin: auto;
   width: 50%;
   border: 3px solid red;
