@@ -274,9 +274,11 @@ button:hover{
     background-color: #40343c; 
 }
 
-#form{
+ form{
   
-    margin-left: auto;
-    margin-right: auto;
+  margin: auto;
+  width: 60%;
+  border: 3px solid #161617;
+  padding: 10px;
    
 }
