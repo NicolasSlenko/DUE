@@ -265,6 +265,16 @@ button1:hover{
     
 }
 
+.MS1{
+    font-size: 50px; 
+    display: flex; 
+    font-family: "courier new";
+    justify-content: center;
+    margin-top: 5px;
+    font-weight: 700px;
+    
+}
+
 .boxes{
     display: flex;
     justify-content: center;
