@@ -1,5 +1,5 @@
-**Discord User Enhancement Bot (DUE) 
-**
+**Discord User Enhancement Bot (DUE)**
+
 The Discord User Enhancement (DUE) bot is a sophisticated tool designed to enhance user experience and server management in Discord. This bot provides a variety of moderation and utility features, including banned word filtering, strike management, and customizable message-type restrictions per channel. DUE is ideal for maintaining a safe and organized community by automating moderation tasks.
 
 **Features**
