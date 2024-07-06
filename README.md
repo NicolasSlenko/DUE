@@ -3,6 +3,7 @@
 The Discord User Enhancement (DUE) bot is a sophisticated tool designed to enhance user experience and server management in Discord. This bot provides a variety of moderation and utility features, including banned word filtering, strike management, and customizable message-type restrictions per channel. DUE is ideal for maintaining a safe and organized community by automating moderation tasks.
 
 **Features**
+
 Automated Moderation: Automatically deletes messages containing banned words and manages user strikes.
 Customizable Warnings: Admins can set the number of strikes required before a user receives a warning.
 Channel Restrictions: Restrict certain types of messages (e.g., images, videos, links) on a per-channel basis.
@@ -11,17 +12,22 @@ Admin Commands: Extensive admin commands for managing banned words, strikes, and
 
 
 **Tech Stack**
+
 Programming Language: Python
 
 **Libraries:**
+
 discord.py: For creating the Discord bot and handling events and commands.
 csv: For reading and writing data to CSV files, which store banned words, strikes, and channel settings.
 os: For interacting with the operating system, including environment variables.
 random: For generating random values where necessary.
 re: For regular expression operations.
 
-**Hosting:** The bot is hosted on a cloud platform with the keep_alive module ensuring continuous operation.
-**Environment Variables:** Utilizes environment variables to securely store and access the bot token.
+**Hosting:** 
+The bot is hosted on a cloud platform with the keep_alive module ensuring continuous operation.
+
+**Environment Variables:** 
+Utilizes environment variables to securely store and access the bot token.
 
 **Getting Started**
 To set up the DUE bot on your Discord server, follow these steps:
