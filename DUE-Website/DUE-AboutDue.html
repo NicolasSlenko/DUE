@@ -1,73 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta name= "viewport" content= "width=device-width, initial-scale=1">
+
 <head>
-    <link rel = "stylesheet" href = "Website-CSS.css">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About DUE page</title>
+    <meta name="description" content="Learn about DUE — what it does, its purpose, and all available bot commands for users and admins.">
+    <link rel="stylesheet" href="Website-CSS.css">
+    <title>About DUE — Discord User Enhancement</title>
 </head>
+
 <body>
     <nav>
-        <label class = "logo">Discord User Enhancement</label> 
+        <label class="logo">DUE</label>
         <ul>
-            <li><a href = "index.html#"> Home </a></li>
-            <li><a class = "active" href = "DUE-AboutDue.html#"> About DUE </a></li>
-            <li><a href = "DUE-Creators.html"> Creators </a></li>
-            <li><a href = "DUE-Feedback.html"> Feedback </a></li>
-            <li><a href = "Privacy-Policy.html"> Terms and Conditions </a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="DUE-AboutDue.html">About</a></li>
+            <li><a href="DUE-Creators.html">Creators</a></li>
+            <li><a href="DUE-Feedback.html">Feedback</a></li>
+            <li><a href="Privacy-Policy.html">Terms</a></li>
         </ul>
-        </nav>
+    </nav>
 
-    <div class = "rectangleheader">
-            <div class = 'backbling d'>
-                <p> What is DUE?</p>
+    <div class="page-section">
+        <h1 class="section-title fade-in">About DUE</h1>
+        <p class="section-subtitle fade-in fade-in-delay-1">Everything you need to know about the Discord User Enhancement bot.</p>
+
+        <div class="about-grid">
+            <div class="about-card fade-in fade-in-delay-1">
+                <h3><span class="card-icon">💬</span> What is DUE?</h3>
+                <p>DUE stands for Discord User Enhancement. As the name suggests, our goal is to improve the Discord user experience through the use of a Discord bot.</p>
+                <p>DUE is primarily responsible for three things: banning words, punishing users for using banned words, and managing the content in certain text channels.</p>
+                <p>DUE is a project started by three high school students with the vision of creating something that can positively impact communities across Discord, which currently has over 150 million active users.</p>
             </div>
-            
-            <div class = 'backbling e'>
-                <p> Our Purpose</p>
+
+            <div class="about-card fade-in fade-in-delay-2">
+                <h3><span class="card-icon">🎯</span> Our Purpose</h3>
+                <p>To combat banned words, DUE has a unique banned word list for each server that admins can add to in order to delete messages containing banned words instantly. This is very useful for unwanted words like profanity that can be deleted automatically.</p>
+                <p>To punish users for using banned words, DUE has a strike system that adds a strike every time a word from the banned word list is used. The server can set a warning for when a user reaches a certain amount of strikes.</p>
+                <p>Lastly, DUE has the capability of only allowing certain types of messages to be sent in specific channels (e.g., sound, text, video). If an unwanted message type is present in a certain channel, it will automatically be deleted.</p>
             </div>
-            <div class = 'backbling f'>
-                <p> Commands</p>
-            </div>
-    </div>
-    <div class = "rectangles">
-        
-        <div class = 'rectangle a'>
-            <p> <br><br> DUE stands for Discord User Enhcanement. <br><br>As the name suggests, our goal is to improve the discord user experience through the use of a discord bot</p>
-            <p><br> DUE is primarily responsible for three things: banning words, punishing users for using banned words, and managing the content in certain text channels</p>
-            <p><br> DUE is a project started by three high school students with the vision of creating something that can positively impact communities across discord, which currently has over 150m active users </p>
         </div>
-        <div class = 'rectangle b'>
-            <p><br><br>To combat banning words, DUE has a unique banned word list for each server that admins can add to in order to delete messages that contain banned words instantly. This is very useful for unwanted words like profanity that can be deleted automatically. The banned words list can also be cleared and have certain words removed if admins feel it is necessary</p>
-            <p><br>To punish users for using banned words, DUE has a strike system that adds a strike every time a word from the banned word list is used. The server can set a warning for when a user reaches a certain amount of strikes and will let the server know when the user has exceeded this amount. Commands can also be used to see the number of strikes that each user has and can clear the strikes of a user if necessary
-            </p> 
-            <p><br>Lastly, to have more controlled text channels, DUE has the capability of only allowing certain types of messages to be sent in specific channels (ex: sound, text, video). If an unwanted message type is present in a certain channel, it will automatically be deleted
- </p>
-        </div>
-        <div class = 'rectangle c'>
-            <h3> Commands anyone can use </h3>
-    <p> !duehelp - View the list of commands that DUE has directly in the server itself </p>
-    <p> !hello - DUE says hello! </p>
-    <p> !bye - DUE says goodbye! </p>
-    <p> !strikes (username#XXXX)- Lets anyone see the strikes of a user  </p>
-    <h3> Admin commands  </h3>
-    <p> !bwa (word) - Adds a word to the server banned word list </p>
-    <p> !bwr (word) - Removes a word from the server banned word list </p>
-    <p> !bwc - Clears the server banned word list</p>
-    <p> !bwv - View the banned word list</p>
-    <p> !clearallstrikes - Clears the strikes of every user</p>
-    <p> !clearstrikes (username#XXXX) - Clears the strike of a certain user</p>
-    <p> !setstrike (int) - Gives the user a warning when they exceed a certain amount of strikes </p>
-    <p> !channeladd (image, text, video, sound, link, file, or embed) - Makes it so that a channel only accepts certain types of messages</p>
-    <p> !channelremove (image, text, video, sound, link, file, or embed) - Makes it so that a channel doesn't accept this type of message </p>
-    <p> !channelclear - Removes the restrictions of certain message types from the channel</p>
-    <p> !channeldisplay - View the message types allowed in this channel
-   
+
+        <!-- Commands -->
+        <div class="commands-section fade-in fade-in-delay-3">
+            <h2 class="section-title" style="font-size: 28px; margin-bottom: 32px;">Commands</h2>
+
+            <div class="commands-group">
+                <h3>User Commands</h3>
+                <div class="command-item">
+                    <span class="command-name">!duehelp</span>
+                    <span class="command-desc">View the list of commands that DUE has directly in the server</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!hello</span>
+                    <span class="command-desc">DUE says hello!</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!bye</span>
+                    <span class="command-desc">DUE says goodbye!</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!strikes &lt;user&gt;</span>
+                    <span class="command-desc">Check the number of strikes for a specified user</span>
+                </div>
+            </div>
+
+            <div class="commands-group">
+                <h3>Admin Commands</h3>
+                <div class="command-item">
+                    <span class="command-name">!bwa &lt;word&gt;</span>
+                    <span class="command-desc">Add a word to the server banned word list</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!bwr &lt;word&gt;</span>
+                    <span class="command-desc">Remove a word from the server banned word list</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!bwc</span>
+                    <span class="command-desc">Clear the server banned word list</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!bwv</span>
+                    <span class="command-desc">View the banned word list</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!clearallstrikes</span>
+                    <span class="command-desc">Clear strikes for every user</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!clearstrikes &lt;user&gt;</span>
+                    <span class="command-desc">Clear the strikes of a certain user</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!setstrike &lt;num&gt;</span>
+                    <span class="command-desc">Warn a user when they exceed a certain number of strikes</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!channeladd &lt;type&gt;</span>
+                    <span class="command-desc">Allow a specific message type in a channel (image, text, video, sound, link, file, embed)</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!channelremove &lt;type&gt;</span>
+                    <span class="command-desc">Disallow a specific message type in a channel</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!channelclear</span>
+                    <span class="command-desc">Remove all message type restrictions from the channel</span>
+                </div>
+                <div class="command-item">
+                    <span class="command-name">!channeldisplay</span>
+                    <span class="command-desc">View the message types allowed in this channel</span>
+                </div>
+            </div>
         </div>
     </div>
 
-   
+    <footer>
+        <p>&copy; 2023 DUE — Discord User Enhancement. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
